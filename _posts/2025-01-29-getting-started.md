@@ -1,4 +1,4 @@
-## Hey, I am Pranshu
+## Getting started
 
 I'm building this blog as a way to keep track of what I've learned, and to share my learnings with others, to collaborate on topics that I find interesting.
 
