@@ -3,6 +3,24 @@ hr {
   margin-bottom: 20px;
 }
 
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+a {
+  color: #bb86fc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+code {
+  background-color: #1e1e1e;
+  color: #c9d1d9;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
