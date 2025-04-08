@@ -7,7 +7,7 @@ I applied to this last year, got an assignment I didn't do in Jan (health reason
 I did some really sloppy work with it, partly due to health reasons, but I documented my process, reasons and tradeoffs in extreme detail. I built the thing using FastAPI and MongoDB, which I recommend if you're trying to make backends in Python (great docs, style).
 
 
-### Assignment
+## Assignment
 
 A simple assignment related to the nature of the role (backend) was given. Tech stacks were restricted to Python and Go; I chose Python because I hadn't learnt Go then (and it's more natural to me). They prefer Django (a large part of their tech stack), but I used FastAPI since I'm more familiar with it, and it takes no time to set up, compared to Django, which should be used in more long-term projects.
 
@@ -15,7 +15,7 @@ It was basically a few APIs combined with a background cron job, where you had a
 
 I had considered not using a monolith, which might be an issue in the interviews, but I did it anyway since the expected load would not be taking the app down anytime soon.
 
-### First round
+## First round
 Technical round (both were technical; you interact with HR a lot with emails and phone calls, though).
 
 This was primarily based on the assignment that I did. 
@@ -29,7 +29,7 @@ I briefly touched upon my interest in learning about observability, the issues I
 This interview taught me a lot about Postgres internals, Sentry and Temporal. In retrospect, I should have focused on scaling and data modelling a lot better.
 
 
-### Second (Final) round
+## Second (Final) round
 
 I got a call the next day that I had passed the first round (they move fast), and the team was eager to go on to the final round with me. It was a technical discussion round, where I would discuss what I've done so far in tech.
 
@@ -45,7 +45,7 @@ After that, it was basically system design questions, which I did not realize be
 
 
 
-Quite naturally, I failed this round.
+### Quite naturally, I failed this round.
 
 I got to learn a lot from it despite this. This interview taught me how to design things before building (yes, I had not designed the trading system before building it; I didn't understand the backend, and I was an ML guy). I learned to think about how systems would scale, how to do calculations for that, identify bottlenecks in distributed systems, and most importantly, that I don't know anything.
 
