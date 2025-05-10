@@ -24,14 +24,7 @@ Sort entries by 'date_added' in reverse order (most recent first).
         <span class="tag">{{ tag }}</span>{% unless forloop.last %},{% endunless %}
       {% endfor %}
     </p>
-    <p>
-      {% comment %}
-      The `href` below constructs a URL to GitHub's 'new file' interface.
-      It pre-fills the directory (_posts), filename (YYYY-MM-DD-slug.md), and content (front matter + basic text).
-      Ensure your default branch name is 'main' or change it to 'master' if applicable.
-      {% endcomment %}
-      <a href="https://github.com/pranshu-raj-211/pranshu-raj-211.github.io/new/main/_posts?filename={{ entry.date_added | date: '%Y-%m-%d' }}-{{ entry.title | slugify }}.md&value=---\nlayout: post\ntitle: \"Note on {{ entry.title | escape }}\"\ndate: {{ site.time | date: '%Y-%m-%d %H:%M:%S %z' }}\ntags: [\"reading-note\", \"{{ entry.title | slugify }}\"{% for tag in entry.tags %}, \"{{ tag | slugify }}\"{% endfor %}]\n---\n\nWrite your thoughts on '{{ entry.title }}' here. Referencing the original source: {{ entry.url }}\n" class="btn btn-primary" target="_blank">Create New Note</a>
-    </p>
+    
   </div>
   <hr>
   {% endfor %}
