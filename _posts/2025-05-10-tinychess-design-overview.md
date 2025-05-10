@@ -1,6 +1,6 @@
 # Designing Tinychess
 
-I'm building a smaller, local version of [Lichess](lichess.org) to learn more about how it works, improve my knowledge of real time protocols and local first web.
+I'm building a smaller, local version of [Lichess](https://lichess.org) to learn more about how it works, improve my knowledge of real time protocols and local first web.
 
 I'm learning Go as I go about building this project, and I'm stoked about the delicate balance between simplicity and low level control provided by the language.
 
@@ -35,4 +35,4 @@ A wishlist of what stuff users and the system should be able to do.
 
 Since it's a local system, I'm trying to keep it as lean as possible, therefore I'll be using SQLite or even a flat file as a database.
 
-![init data model](static/image.png)
+![init data model](_posts/static/image.png)
