@@ -1,0 +1,17 @@
+- title: "Understanding mDNS"
+  author: "Paul Otto"
+  url: "https://medium.com/@potto_94870/understand-mdns-with-an-example-1e05ef70013b"
+  date_added: "2025-05-10"
+  tags: ["mDNS", "Protocols"]
+
+- title: "Go Concurrency"
+  author: "Jamal Kaksouri"
+  url: "https://medium.com/@jamal.kaksouri/the-complete-guide-to-context-in-golang-efficient-concurrency-management-43d722f6eaea"
+  date_added: "2025-05-10"
+  tags: ["Go", "Concurrency"]
+
+- title: "Asyncio Event loop"
+  author: ""
+  url: "https://docs.python.org/3/library/asyncio-eventloop.html"
+  date_added: "2025-05-10"
+  tags: ["Python", "Asyncio", "Languages"]
