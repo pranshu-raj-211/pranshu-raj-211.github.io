@@ -18,7 +18,7 @@ These aren't just minor annoyances; they break any simple pattern-matching logic
 
 We designed `concall-parser` as a multi-step process to handle this progressively. Here's the basic flow:
 
-![concall parser workflow](https://raw.githubusercontent.com/pranshu-raj-211/pranshu-raj-211.github.io/blob/main/_posts/static/concall-parser-workflow.png)
+![concall parser workflow](https://raw.githubusercontent.com/pranshu-raj-211/pranshu-raj-211.github.io/main/_posts/static/concall-parser-workflow.png)
 
 1. **Load:** Get the PDF input.
 2. **Extract Text:** Pull the raw text out page by page (used `pdfplumber` for this).
